@@ -54,7 +54,12 @@ h1 {
 	overflow: hidden;
 	margin-bottom: 40px;
 	border-radius: 5px;
-	
+	transform: scale(0.5);
+	opacity: 0;
+	transition: .6s ease-in-out all;
+}
 
-
+.contenedor img.oculta{
+	transform: scale(1);
+	opacity: 1;
 }
